@@ -35,7 +35,6 @@ class Reminder {
     this.title = title;
     this.description = description;
     this.timestamp = new Date().toISOString();
-
     this.read = false;
   }
 }
